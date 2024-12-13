@@ -7,9 +7,13 @@ const Landing = () => {
     <div>
       <div className={style["landing-content"]}>
         <h1>Welcome to My Landing Page</h1>
-        <Link to="/homepage" className={style["button"]}>
-          Move Next
-        </Link>
+   
+        <Link to="/login" className={style["button"]}>
+                    Login
+                  </Link>
+                  <Link to="/SignUp" className={style["button"]}>
+                    Signup
+                  </Link>
       </div>
     </div>
   );

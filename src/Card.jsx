@@ -20,7 +20,7 @@ const Card = ({product}) => {
           </div>
           <h1>{product.item}</h1>
           <p>{product.warranty}</p>
-          <p>{product.id}</p>
+          <p>{product.name}</p>
           <button className={style["update"]}onClick={handleUpdate}>Update</button>
           <button className={style["delete"]} onClick={()=>{handleProductDelete("Electronics",product.id)}}>Delete</button>
          </div>

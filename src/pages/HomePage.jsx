@@ -25,6 +25,8 @@ const HomePage = () => {
           <li>
             <Link to="/homePage/cart" className={style["nav-link"]}>Cart</Link>
           </li>
+          
+          
         </ul>
       </nav>
       <main className={style["main-content"]}>

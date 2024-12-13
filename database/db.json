@@ -8,10 +8,9 @@
       "id": "c5bc"
     },
     {
-      "name": "Bluetooth Speaker",
-      "brand": "JBL",
-      "model": "Charge 5",
-      "price": 179.95,
+      "item": "Bluetooth Speak",
+      "warranty": "Boat",
+      "warranty_Id": "c77b",
       "id": "c77b"
     },
     {

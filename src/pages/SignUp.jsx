@@ -53,7 +53,7 @@ const SignUp =()=>{
                     <label htmlFor="Add">Address</label>
                    <textarea name="address" id={style["address"]} onChange={handelChnage}></textarea>
                 </div>
-                <Link to="/homepage"><button type="submit">Sign Up</button></Link>
+                <Link to="/login"><button type="submit">Sign Up</button></Link>
                 
             </form>
         </div>
